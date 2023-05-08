@@ -1,0 +1,47 @@
+
+.aesop {
+    background: url(/src/image/aesop.jpeg) ;
+    background-position: top;
+    width: 50vw;
+    height: 100vh;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    filter: grayscale(100%);
+}
+
+.aesop:hover {
+    filter: grayscale(0%);
+    transition: all .8s ease-in-out;
+}
+
+.porsche {
+    background: url(/src/image/porsche.jpg);
+    background-position: 27%;
+    width: 50vw;
+    height: 100vh;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    right: 0;
+    filter: grayscale(100%);
+}
+
+.porsche:hover {
+    filter: grayscale(0%);
+    transition: all .8s ease-in-out;
+}
+
+.pj {
+    line-height: 100vh;
+    text-align: center;
+    padding-top: 2rem;
+    font-size: 8rem;
+    color: #fff;
+    font-weight: bold;
+}
+
+.pj:hover{
+    color: green
+}

@@ -1,0 +1,71 @@
+
+.contact_wrap {
+    width: 550px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.contact_title {
+    font-size: 50px;
+}
+
+.contact_box {
+    padding-top: 2.5rem;
+    display: flex;
+}
+
+.contact_box a{
+    padding-top: 20px;
+}
+
+ul {
+    padding-right: 2rem;
+}
+
+.email, .phone {
+    color: green;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding-bottom: 1rem;
+}
+
+.phone {
+    padding-top: 50px;
+}
+
+.contact_main_txt {
+    font-size: 1.5rem;
+    padding-bottom: 2rem;
+}
+
+.file{
+    display: inline-block;
+    border-radius: 30px;
+    height: 20px;
+    padding: 1rem;
+    transition:0.3s;
+    background-color:#333;
+    animation: glow 2s infinite ;
+    transition:0.5s;
+}
+
+.file:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+@keyframes glow{
+    0%{
+    box-shadow: 5px 5px 20px #1976D2,-5px -5px 20px #1976D2;}
+    
+    50%{
+    box-shadow: 5px 5px 20px #fff,-5px -5px 20px #fff;
+    }
+    100%{
+    box-shadow: 5px 5px 20px #1976D2,-5px -5px 20px #1976D2;}
+
+  }
+  
+  

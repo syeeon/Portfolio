@@ -1,0 +1,141 @@
+
+.porsche_main {
+    width: 100%;
+    height: 100%;
+    max-height: 60vh;
+}
+
+.porsche_review_wrap {
+    background-color: #9b111e;
+    padding: 3rem 2rem;
+    color: #fff;
+}
+
+.review_box {
+    display: flex;
+} 
+
+.porsche_review_wrap h1 {
+    font-size: 3rem;
+    padding-right: 2rem;
+}
+
+.view_btn {
+    height: 3rem;
+    line-height: 3rem;
+    border-radius: 2rem;
+    border: 1px solid #fff ;
+    padding: 1rem 2rem;
+}
+
+.porsche_review_wrap .view_btn:hover {
+    color: #9b111e;
+    background-color: #fff;
+}
+
+.view_btn_right {
+    margin-right: 1rem;
+}
+
+.porsche_explain {
+    width: 100%;
+    padding-top: 5rem;
+    line-height: 2;
+}
+
+.index_explain {
+    width: 90%;
+    text-align: center;
+}
+
+.porsche_desktop_wrap {
+    margin: 100px auto;
+    width: 90%;
+    padding: 8% 0;
+    background-color: #e0e0e0;
+}
+
+
+.desktop_box {
+    width: 70%;
+    margin: 0 auto;
+    box-shadow: 0 32px 64px 0 rgba(0,0,0,.4);
+    background-color: #e0e0e0;
+}
+
+.desktop_content {
+    position: relative;
+    overflow: hidden;
+}
+
+video {
+    width: 100%;
+    object-fit: contain;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.videos {
+    display: flex;
+}
+
+.video_flex {
+    width: 50%;
+    box-shadow: 0 32px 64px 0 rgba(0,0,0,.4);
+}
+
+.viedo_rigth {
+    padding-right: 50px;
+}
+
+.porsche_desktop_wrap_sub {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    padding-bottom: 100px;
+}
+
+.porsche_desktop_sub_centent {
+    width: 64%;
+    background-color: #e0e0e0;
+}
+
+.desktop_sub {
+    width: 70%;
+    margin: 8% auto;
+    position: relative;
+    box-shadow: 0 32px 64px 0 rgba(0,0,0,.4);
+}
+
+.porsche_explain_wrap {
+    width: 40%;
+    margin: 0.5%;
+    padding-right: 50px;
+}
+
+.porsche_footer_wrap {
+    margin-top: 100px;
+    height: 300px;
+    position: relative;
+}
+
+.porsche_footer_wrap {
+    background: url(/src/image/next_aesop.jpg);
+    background-position: 0% 50%;
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.porsche_footer_wrap p {
+    font-weight: bold;
+    color: #fff;
+    font-size: 4rem;
+    position: absolute;
+    left: 150px;
+    top:150px
+}
+
+

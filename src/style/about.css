@@ -1,0 +1,71 @@
+
+canvas {
+	position: absolute;
+	top: 25rem;
+	right: 0;
+	width: 40rem;
+	height: 40rem;
+}
+
+.about_me {
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+.about_sub_txt_box_1 {
+    display: flex;
+}
+
+.about_sub_txt_box_2 {
+    font-weight: bold
+}
+
+.about_sub_txt_wrap .right {
+    margin-right: 2rem;
+}
+
+.about_sub_txt_wrap {
+    margin-top: 10rem;
+    z-index: 999;
+    font-size: 1.188rem
+}
+
+.about_title {
+    font-size: 1.5rem;
+    padding: 2rem 0;
+}
+
+.about_sub_txt_wrap {
+   width: 80%;
+   line-height: 2;
+}
+
+.about_me_sub_title {
+    color: #1976D2;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.about_sub_txt_wrap .bottom {
+    padding-bottom: 2rem;
+}
+
+.about_sub_txt_wrap_2{
+    font-size: 1.188rem
+}
+
+.about_sub_txt_wrap_2 .top {
+    padding :3rem 0 1rem 0;
+}
+
+.sub_title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding-top: 2rem;
+    color: #fff;
+}
+
+.txt {
+    padding-top: 1rem;
+}
+
