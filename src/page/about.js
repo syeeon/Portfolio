@@ -1,5 +1,4 @@
-import React, { Component } from 'react';
-
+import React from 'react';
 import Header from '../header'
 import '../style/about.css'
 import Tree from './growing'

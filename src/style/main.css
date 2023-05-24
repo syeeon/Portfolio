@@ -37,6 +37,20 @@
 	background-color: blue;
 }
 
+.side {
+	position: absolute;
+	width: 0;
+	height: 0;
+}
+
+.side_1 {
+    right: 0;
+    bottom: 0;
+    animation: drawSide1 .5s ease-in-out forwards;
+    z-index: 10;
+  }
+
+
 .side_2 {
 	right: 0;
 	top: 0;
