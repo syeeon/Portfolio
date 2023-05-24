@@ -14,7 +14,7 @@ function Main() {
   return (
     <div>
       <div className='bg'></div>
-        <p className='main_title main_top'>이승연의 새로운 도전에 문을 여시겠습니까?</p>
+        <p className='main_title main_top'>이승연의 새로운 도전의 문을 여시겠습니까?</p>
         <Link to="/about" className='door_wrap'>
           <div className='side side_1'></div>
           <div className='side side_2'></div>
